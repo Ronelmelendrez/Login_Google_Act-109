@@ -94,9 +94,9 @@ Visit [Google Cloud Console](https://console.cloud.google.com/)
 1. Select "External" user type
 2. Click "Create"
 3. Fill in required fields:
-   - **App name**: Your application name
-   - **User support email**: Your email
-   - **Developer contact email**: Your email
+    - **App name**: Your application name
+    - **User support email**: Your email
+    - **Developer contact email**: Your email
 4. Click "Save and Continue"
 5. Skip "Scopes" (click "Save and Continue")
 6. Skip "Test users" (click "Save and Continue")
@@ -108,13 +108,13 @@ Visit [Google Cloud Console](https://console.cloud.google.com/)
 2. Select **Application type**: "Web application"
 3. Enter a name (e.g., "Laravel Google Auth Client")
 4. Under **Authorized JavaScript origins**, click "+ ADD URI":
-   ```
-   http://localhost:8000
-   ```
+    ```
+    http://localhost:8000
+    ```
 5. Under **Authorized redirect URIs**, click "+ ADD URI":
-   ```
-   http://localhost:8000/auth/google/callback
-   ```
+    ```
+    http://localhost:8000/auth/google/callback
+    ```
 6. Click "CREATE"
 7. **Copy your Client ID and Client Secret** (you'll need these next)
 
